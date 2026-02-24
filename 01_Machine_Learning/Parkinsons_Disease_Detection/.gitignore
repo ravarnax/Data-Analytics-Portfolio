@@ -1,0 +1,12 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large datasets (GitHub blocks files > 100MB anyway)
+*.csv
+*.xlsx
+*.log
